@@ -3,109 +3,142 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Website Redesign</title>
+  <title>CS401 Redesign</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
 </head>
 
 <body>
-  <div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
-      <div class="dropdown-content">
-        <a href="https://learn.zybooks.com/zybook/BOISESTATECS401516PanterFall2022">Textbook</a>
-        <a href="https://piazza.com/class/l6y9sgx2v841b0">Discussion Forum</a>
-        <a href="https://github.com/cs401-fall2022">Github Course Site</a>
-        <a href="https://boisestatecanvas.instructure.com/courses/14640/grades">Grades</a>
-        <a href="https://boisestatecanvas.instructure.com/courses/14640">Office Hours</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Documents</button>
-      <div class="dropdown-content">
-        <a href="/docs/coding-standards.html">Class Coding Standards</a>
-        <a href="/docs/github.html">GitHub Help</a>
-        <a href="https://docs.google.com/spreadsheets/d/1XZJ_oXxTwgnL0vkrBdRjkDB50WlsOPhKUcu-gsZb25o/edit?usp=sharing">Learning Objectives</a>
-      </div>
-    </div>
-    <a href="https://shanep-web.github.io/">Course Info</a></li>
-    <a style="float:left" href="https://shanep-web.github.io/">//CS 401</a>
-  </div>
-<div>
-  <h1>CS 401- Intro to Web Dev</h1>
-</div>
-<div>
+  <h1>CS 401- Introduction to Web Development</h1>
+
+  <ul>
+    <li>
+      <select name="course links">
+        <option value="" disabled selected>Course Links</option>
+        <option value="textbook">Textbook</option>
+        <option value="piazza">Piazza</option>
+        <option value="github">Github</option>
+        <option value="grades">Grades</option>
+        <option value="office hours">Office Hours</option>
+      </select>
+    </li>
+    <li>
+      <select name="documents">
+        <option value="" disabled selected>Documents</option>
+        <option value="textbook">Textbook</option>
+        <option value="piazza">Piazza</option>
+        <option value="github">Github</option>
+        <option value="grades">Grades</option>
+        <option value="office hours">Office Hours</option>
+      </select>
+    </li>
+    <li><a href="example.com">Course Info</a></li>
+  </ul>
+
   <h2>Welcome</h2>
-  <img src="./img/Shanep.jpeg" alt="A photo" class="right" />
-  <p>Welcome to the class! My name is Shane Panter and I will be your instructor for this course. 
+  <img src="./img/Shanep.jpeg" alt="Excited Shane">
+  <p>
+    Welcome to the class! My name is Shane Panter and I will be your instructor for this course. 
     For many students, this will be the first time you have been exposed to web development topics. 
     This course has been designed to take someone who has never seen these concepts before to being 
     able to produce relatively complex programs in 16 weeks. This class is a three credit course and 
     it is specifically designed to require 8 to 10 hours of work each week. In order to succeed in 
     the course, it will be critical for you to manage your time effectively and keep up with the 
     reading and lab activities. Please take some time to get familiar with the course website. 
-    Pay close attention to when the homework assignments are due to ensure you get everything in on time.</p>
-  <p>We will be interacting with each other primarily through Github, discussion forums, and videos. 
-    Get started by completing the Course Introduction homework below!</p>
-</div>
+    Pay close attention to when the homework assignments are due to ensure you get everything in on time.
+  </p>
+  <p>
+    We will be interacting with each other primarily through Github, discussion forums, and videos. 
+    Get started by completing the Course Introduction homework below!
+  </p>
 
-<h3>
-  Weekly Homework
-</h3>
-<table>
-  <tr>
-    <th>Week</th>
-    <th>Due Date</th>
-    <th>Homework</th>
-    <th>Points</th>
-  </tr>
-  <tr>
-    <td rowspan="2">1</td>
-    <td>08-23</td>
-    <td>Course Introduction</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>08-23</td>
-    <td>Scavenger Hunt</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td rowspan="2">2</td>
-    <td>08-23</td>
-    <td>Reading Homework</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>08-23</td>
-    <td>Lab 1</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td rowspan="2">3</td>
-    <td>08-23</td>
-    <td>Reading Homework</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>08-23</td>
-    <td>Lab 2</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td rowspan="2">4</td>
-    <td>08-23</td>
-    <td>Reading Homework</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>08-23</td>
-    <td>Lab 3</td>
-    <td>50</td>
-  </tr>
-</table>
+  <h3>
+    Weekly Homework
+  </h3>
+  <table>
+    <tr>
+      <th>Week</th>
+      <th>Due Date</th>
+      <th>Homework</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td colspan="4">Introduction</td>
+    </tr>
+    <tr>
+      <td rowspan="2">1</td>
+      <td>08-23</td>
+      <td>Course Introduction</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>08-25</td>
+      <td>Scavenger Hunt</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2</td>
+      <td>08-30</td>
+      <td>Reading Homework</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>09-01</td>
+      <td>Lab 1</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td colspan="4">HTML</td>
+    </tr>
+    <tr>
+      <td rowspan="2">3</td>
+      <td>09-06</td>
+      <td>Reading Homework</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>09-08</td>
+      <td>Lab 2</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td rowspan="2">4</td>
+      <td>09-13</td>
+      <td>Reading Homework</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>09-15</td>
+      <td>Lab 3</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td colspan="4">CSS</td>
+    </tr>
+    <tr>
+      <td rowspan="2">5</td>
+      <td>09-20</td>
+      <td>Reading Homework</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>09-22</td>
+      <td>Lab 4</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td rowspan="2">6</td>
+      <td>09-27</td>
+      <td>Reading Homework</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>09-29</td>
+      <td>Lab 5</td>
+      <td>50</td>
+    </tr>
+  </table>
 
 </body>
 
