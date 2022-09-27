@@ -1,10 +1,12 @@
 body {
     background-color: black;
+    background-image: url('/img/neonSquare.gif');
     color: white;
     font-family:'Courier New', Courier, monospace
 }
 
 .flexbox {
+    
     display: flex;
     justify-content: center;
 }
@@ -22,6 +24,7 @@ h2 {
 }
 
 .course_links, .documents {
+    background-color: black;
     border: 2pt solid yellow;
     width: 200px;
     height: auto; /* change height to auto*/
@@ -54,6 +57,9 @@ ul.tick{
 }
 
 .middle {
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: black;
     text-align: center;
     color: yellow;
     text-shadow: 0 0 4px yellowgreen, 0 0 4px white;
