@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace
+}
+
+.outer {
+    display: flex;
+}
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    text-shadow: 0 0 4px red, 0 0 8px purple;"
+}
+
+h2 {
+    color: hotpink;
+    font-size: 24pt;
+    text-shadow: 0 0 4px red, 0 0 8px purple;"
+}
+
+.course_links, .documents {
+    border: 2pt solid yellow;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    flex-basis: 20%;
+}
+
+.course_links p, .documents p {
+    font-weight: bold;
+    color: hotpink;
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+    color: yellow;
+    text-shadow: 0 0 4px yellowgreen, 0 0 4px white;
+    flex-basis: 60%;
+}
+
+.table_header {
+    border: 2px solid hotpink;
+}
+
+.center {
+    width: 100%;
+}
