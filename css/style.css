@@ -24,15 +24,18 @@ h2 {
 .course_links, .documents {
     border: 2pt solid yellow;
     width: 200px;
-    height: 200px;
+    height: auto; /* change height to auto*/
     margin: 40px;
     flex-basis: 20%;
 }
 
-
-.course_links ul, .documents ul {
-    list-style-type: square;
+ul.tick{ 
+  list-style-position: inside;
+  list-style: square inside url("/img/NeonSquare25.gif");
 }
+/* .course_links ul, .documents ul {
+  list-style-type: square;
+} */
 
 .course_links a, .documents a {
     color: white;
