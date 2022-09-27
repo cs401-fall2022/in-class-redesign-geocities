@@ -67,3 +67,7 @@ ul.tick{
 .center {
     width: 100%;
 }
+
+.center td{
+  border: 1px solid hotpink;
+}
