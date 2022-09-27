@@ -4,20 +4,21 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 
-.outer {
+.flexbox {
     display: flex;
+    justify-content: center;
 }
 
 h1 {
     color: hotpink;
     text-align: center;
-    text-shadow: 0 0 4px red, 0 0 8px purple;"
+    text-shadow: 0 0 4px red, 0 0 8px purple;
 }
 
 h2 {
     color: hotpink;
     font-size: 24pt;
-    text-shadow: 0 0 4px red, 0 0 8px purple;"
+    text-shadow: 0 0 4px red, 0 0 8px purple;
 }
 
 .course_links, .documents {
@@ -26,6 +27,21 @@ h2 {
     height: 200px;
     margin: 40px;
     flex-basis: 20%;
+}
+
+
+.course_links ul, .documents ul {
+    list-style-type: square;
+}
+
+.course_links a, .documents a {
+    color: white;
+    text-decoration: none;
+}
+
+.course_links a:hover, .documents a:hover {
+    color: hotpink;
+
 }
 
 .course_links p, .documents p {
