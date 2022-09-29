@@ -1,14 +1,13 @@
 body {
     background-color: black;
-    /* background-image: url('/img/NeonMoutain.gif'); */
     background-image: url('/img/NeonMoutain175.gif');
+    /* background-image: url('/img/NeonMoutain.gif'); */
     /* background-image: url('/img/NeonCarMoon.gif'); */
     color: white;
     font-family:'Courier New', Courier, monospace
 }
 
 .flexbox {
-    
     display: flex;
     justify-content: center;
 }
@@ -30,6 +29,7 @@ h2 {
     max-width: 100%;
     padding-top: 40px;
     min-height: 204px;
+    min-width: 204px;
 }
 
 .course_links, .documents {
@@ -37,8 +37,7 @@ h2 {
     border: 2pt solid yellow;
     min-width: 150px;
     max-width: 100%;
-    height: auto; /* change height to auto*/
-    max-height: 200px; 
+    height: auto;
     margin: 40px;
     flex-basis: 20%;
 }
