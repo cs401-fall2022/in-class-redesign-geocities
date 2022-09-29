@@ -25,21 +25,31 @@ h2 {
     text-shadow: 0 0 4px red, 0 0 8px purple;
 }
 
+.picture{
+    flex-basis: 60%;
+    max-width: 100%;
+    padding-top: 40px;
+    min-height: 204px;
+}
+
 .course_links, .documents {
     background-color: black;
     border: 2pt solid yellow;
-    width: 200px;
+    min-width: 150px;
+    max-width: 100%;
     height: auto; /* change height to auto*/
+    max-height: 200px; 
     margin: 40px;
     flex-basis: 20%;
 }
 
 ul.tick{ 
-  list-style-position: inside;
-  list-style: square inside url("/img/NeonSquare25.gif");
+    list-style-position: inside;
+    list-style: square inside url("/img/NeonSquare25.gif");
+    color: hotpink;
 }
 /* .course_links ul, .documents ul {
-  list-style-type: square;
+    list-style-type: square;
 } */
 
 .course_links a, .documents a {
@@ -77,5 +87,10 @@ ul.tick{
 }
 
 .center td{
-  border: 1px solid hotpink;
+    border: 1px solid hotpink;
+}
+
+.paragraph{
+    padding-left: 20px;
+    padding-right: 20px;
 }
