@@ -26,6 +26,7 @@ h2 {
     max-width: 100%;
     padding-top: 40px;
     min-height: 204px;
+    min-width: 204px;
 }
 
 .course_links, .documents {
@@ -43,9 +44,6 @@ ul.tick{
     list-style: square inside url("/img/NeonSquare25.gif");
     color: hotpink;
 }
-/* .course_links ul, .documents ul {
-    list-style-type: square;
-} */
 
 .course_links a, .documents a {
     color: white;
